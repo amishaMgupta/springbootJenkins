@@ -1,0 +1,89 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.105
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2020 12:25:26 UTC
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.105.0
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.15.0-112-generic
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/amisha/Stackroute/software/apache-tomcat-7.0.105
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/amisha/Stackroute/software/apache-tomcat-7.0.105
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/amisha/Stackroute/software/apache-tomcat-7.0.105/conf/logging.properties
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/amisha/Stackroute/software/apache-tomcat-7.0.105
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/amisha/Stackroute/software/apache-tomcat-7.0.105
+Sep 26, 2020 7:05:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/amisha/Stackroute/software/apache-tomcat-7.0.105/temp
+Sep 26, 2020 7:05:48 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Sep 26, 2020 7:05:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+Sep 26, 2020 7:05:50 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1923 ms
+Sep 26, 2020 7:05:50 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Sep 26, 2020 7:05:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.105
+Sep 26, 2020 7:05:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/host-manager]
+Sep 26, 2020 7:05:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/host-manager] has finished in [1,003] ms
+Sep 26, 2020 7:05:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/manager]
+Sep 26, 2020 7:05:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/manager] has finished in [194] ms
+Sep 26, 2020 7:05:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/examples]
+Sep 26, 2020 7:05:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/examples] has finished in [1,328] ms
+Sep 26, 2020 7:05:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/docs]
+Sep 26, 2020 7:05:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/docs] has finished in [76] ms
+Sep 26, 2020 7:05:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/ROOT]
+Sep 26, 2020 7:05:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/amisha/Stackroute/software/apache-tomcat-7.0.105/webapps/ROOT] has finished in [25] ms
+Sep 26, 2020 7:05:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+Sep 26, 2020 7:05:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2750 ms
+Sep 26, 2020 7:46:50 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 26, 2020 7:46:50 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+Sep 26, 2020 7:46:50 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Sep 26, 2020 7:46:50 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+Sep 26, 2020 7:46:50 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
